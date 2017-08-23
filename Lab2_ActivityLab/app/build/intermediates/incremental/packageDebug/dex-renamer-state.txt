@@ -1,0 +1,7 @@
+#Thu Aug 17 19:26:46 BST 2017
+base.0=C\:\\Users\\User\\StudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f6eb1cb4c0787898a17d0f356f5b8c77566131b6
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=C\:\\Users\\User\\StudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4d97a1f463110ced6f051cde0d3d6673f125c8fb\\classes.dex
+base.1=C\:\\Users\\User\\StudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_4d97a1f463110ced6f051cde0d3d6673f125c8fb
+file.0=C\:\\Users\\User\\StudioProjects\\Lab2_ActivityLab\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_f6eb1cb4c0787898a17d0f356f5b8c77566131b6\\classes.dex
