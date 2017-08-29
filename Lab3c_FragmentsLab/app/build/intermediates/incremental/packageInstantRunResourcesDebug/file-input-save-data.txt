@@ -1,0 +1,30 @@
+#Internal package file, do not edit.
+#Wed Aug 23 19:09:57 BST 2017
+2.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+5.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout-large-v4\\main_activity.xml
+5.set=ANDROID_RESOURCE
+3.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+6.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\AndroidManifest.xml
+2.set=ANDROID_RESOURCE
+4.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+7.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\taylorswift.txt
+7.set=ANDROID_RESOURCE
+count=9
+0.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\rebeccablack.txt
+5.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\drawable-xhdpi-v4\\ic_launcher.png
+4.set=ANDROID_RESOURCE
+6.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+1.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\resources.arsc
+1.set=ANDROID_RESOURCE
+7.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+2.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\feed.xml
+6.set=ANDROID_RESOURCE
+0.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+8.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+3.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\raw\\ladygaga.txt
+3.set=ANDROID_RESOURCE
+1.base=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_
+4.file=C\:\\Users\\User\\StudioProjects\\Lab3c_FragmentsLab\\app\\build\\intermediates\\res\\resources-debug.ap_\\res\\layout\\main_activity.xml
+8.set=ANDROID_RESOURCE
+0.set=ANDROID_RESOURCE

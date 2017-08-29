@@ -1,0 +1,12 @@
+#Internal package file, do not edit.
+#Wed Aug 23 16:58:44 BST 2017
+1.base=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\res\\resources-debug-androidTest.ap_
+1.file=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\res\\resources-debug-androidTest.ap_\\AndroidManifest.xml
+2.base=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\transforms\\dex\\androidTest\\debug\\folders\\1000\\1f\\main
+2.set=DEX
+2.file=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\transforms\\dex\\androidTest\\debug\\folders\\1000\\1f\\main\\classes.dex
+count=3
+1.set=ANDROID_RESOURCE
+0.set=JAVA_RESOURCE
+0.base=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\transforms\\mergeJavaRes\\androidTest\\debug\\jars\\2\\1f\\main.jar
+0.file=C\:\\Users\\User\\StudioProjects\\Lab3b_PermissionsLab\\app\\build\\intermediates\\transforms\\mergeJavaRes\\androidTest\\debug\\jars\\2\\1f\\main.jar\\com\\robotium\\solo\\RobotiumWeb.js
