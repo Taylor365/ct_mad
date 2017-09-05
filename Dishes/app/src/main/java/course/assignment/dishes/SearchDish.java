@@ -6,8 +6,11 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
+/**
+ * Created by User on 05/09/17.
+ */
 
-public class Eat extends Activity {
+public class SearchDish extends Activity {
     public void onCreate(Bundle savedInstanceState) {
 
         // Required call through to Activity.onCreate()
@@ -15,16 +18,7 @@ public class Eat extends Activity {
         super.onCreate(savedInstanceState);
 
         // Set up the application's user interface (content view)
-        setContentView(R.layout.eat);
+        setContentView(R.layout.searchdish);
 
-        final Button sDishButton = (Button) findViewById(R.id.searchDish_button);
-        sDishButton.setOnClickListener(new View.OnClickListener() {
-
-            public void onClick(View v) {
-                Intent sDishIntent = new Intent(Eat.this, SearchDish.class); //Use UITabLayout
-
-                startActivity(sDishIntent);
-            }
-        });
     }
 }

@@ -34,6 +34,16 @@ public class LoginScreen extends Activity {
                 }
             }
         });
+
+        final Button registerButton = (Button) findViewById(R.id.register_button);
+        registerButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent registerIntent = new Intent(LoginScreen.this, RegisterScreen.class);
+
+                startActivity(registerIntent);
+            }
+        });
     }
 
     private boolean checkPassword(String uname, String passwd) {
