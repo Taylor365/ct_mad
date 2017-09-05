@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/searchDish_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Dish" />
+
+    <Button
+        android:id="@+id/searchStyle_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Style" />
+
+    <Button
+        android:id="@+id/searchCook_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Cook" />
+
+    <Button
+        android:id="@+id/searchArea_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Search Area" />
+
+</LinearLayout>
