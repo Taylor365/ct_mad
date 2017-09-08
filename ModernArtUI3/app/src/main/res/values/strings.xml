@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">ModernArtUI</string>
+    <string name="action_info">More Information</string>
+    <string name="action_visit_moma">Visit MOMA</string>
+    <string name="title_visit_moma">Inspired by the works of artists such as Piet Mondrian and Ben Nicholson.\n\nClick to Learn More!</string>
+    <string name="web_address_moma">http://www.moma.org/</string>
+</resources>
