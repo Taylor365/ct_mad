@@ -1,30 +1,66 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
 
     <Button
         android:id="@+id/searchDish_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Dish" />
-
-    <Button
-        android:id="@+id/searchStyle_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Style" />
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:text="Search Dish"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/searchCook_button"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="20dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/searchCook_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Cook" />
+        android:layout_width="166dp"
+        android:layout_height="57dp"
+        android:text="Search Cook"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/searchArea_button"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/searchArea_button"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Search Area" />
+        android:layout_width="0dp"
+        android:layout_height="57dp"
+        android:text="Search By Area"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="@+id/searchCook_button"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="127dp"
+        app:layout_constraintLeft_toLeftOf="@+id/searchCook_button" />
 
-</LinearLayout>
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/imageView2"
+        android:layout_width="76dp"
+        android:layout_height="0dp"
+        android:src="@drawable/search"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/searchDish_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

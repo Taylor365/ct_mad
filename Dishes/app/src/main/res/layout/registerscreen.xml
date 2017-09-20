@@ -2,7 +2,23 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:id="@+id/name_textview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/name_string" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/name_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_name_hint"
+        android:inputType="textEmailAddress">
+    </EditText>
 
     <TextView
         android:id="@+id/email_textview"
@@ -49,12 +65,27 @@
         android:inputType="textAutoComplete">
     </EditText>
 
-    <Button
-        android:id="@+id/register_button"
+    <TextView
+        android:id="@+id/dish_textview"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:text="@string/dish_string" >
+    </TextView>
+
+    <EditText
+        android:id="@+id/dish_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/enter_dish_hint"
+        android:inputType="textAutoComplete">
+    </EditText>
+
+    <Button
+        android:id="@+id/register_button"
+        android:layout_width="165dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
-        android:text="@string/register_string" >
-    </Button>
+        android:layout_weight="0.11"
+        android:text="@string/register_string"></Button>
 
 </LinearLayout>

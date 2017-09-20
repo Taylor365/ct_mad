@@ -38,6 +38,14 @@
             android:name=".RegisterScreen"
             android:label="Dishes">
         </activity>
+        <activity
+            android:name=".Address"
+            android:label="Dishes">
+        </activity>
+        <activity
+            android:name=".Delivery"
+            android:label="Dishes">
+        </activity>
     </application>
 
 </manifest>

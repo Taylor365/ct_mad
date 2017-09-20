@@ -1,26 +1,84 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-    android:orientation="vertical" >
+    android:orientation="vertical"
+    tools:layout_editor_absoluteY="81dp"
+    tools:layout_editor_absoluteX="0dp">
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/imageView"
+        android:layout_width="167dp"
+        android:layout_height="0dp"
+        android:src="@drawable/dishes"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/eat_button"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="34dp"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
 
     <Button
         android:id="@+id/eat_button"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="0dp"
+        android:layout_height="67dp"
         android:layout_gravity="top"
-        android:text="@string/eat_string"></Button>
+        android:text="@string/eat_string"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/cook_button"
+        app:layout_constraintRight_toRightOf="@+id/cook_button"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="70dp"
+        app:layout_constraintLeft_toLeftOf="@+id/cook_button"></Button>
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="or" />
+        android:text="or"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="@+id/eat_button"
+        android:layout_marginTop="23dp"
+        app:layout_constraintTop_toBottomOf="@+id/eat_button"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="@+id/eat_button" />
 
     <Button
         android:id="@+id/cook_button"
+        android:layout_width="135dp"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:text="@string/cook_string"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="72dp"
+        app:layout_constraintLeft_toLeftOf="parent"></Button>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAlignment="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_gravity="bottom"
-        android:text="@string/cook_string"></Button>
-</LinearLayout>
+        android:text="Dishes\n Enjoy homemade food, homemade!"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginTop="16dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</android.support.constraint.ConstraintLayout>

@@ -9,13 +9,20 @@
     <string name="login_string">Login</string>
     <string name="register_string">Register</string>
 
+    <string name="enter_name_hint">Enter Your Name/Username</string>
+    <string name="name_string">Username</string>
+
     <string name="enter_email_hint">Enter Email</string>
     <string name="email_string">Email</string>
 
     <string name="enter_address_hint">Enter Address</string>
     <string name="address_string">Address</string>
 
+    <string name="enter_dish_hint">Enter Dish</string>
+    <string name="dish_string">Dish</string>
+
     <string name="search_string">Search</string>
     <string name="search_dish_string">Search Dish</string>
     <string name="enter_dish_name_hint">Enter dish to search</string>
+
 </resources>

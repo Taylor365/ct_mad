@@ -16,9 +16,11 @@ public class RegisterScreen extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.registerscreen);
 
+        final EditText name = (EditText) findViewById(R.id.name_edittext);
         final EditText email = (EditText) findViewById(R.id.email_edittext);
         final EditText passwd = (EditText) findViewById(R.id.password_edittext);
         final EditText address = (EditText) findViewById(R.id.address_edittext);
+        final EditText dish = (EditText) findViewById(R.id.dish_edittext);
 
         final Button registerButton = (Button) findViewById(R.id.register_button);
         registerButton.setOnClickListener(new View.OnClickListener() {

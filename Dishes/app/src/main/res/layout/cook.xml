@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
     android:orientation="vertical" >
@@ -9,6 +11,71 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Lets get Cooking!"
-        android:textSize="40sp"/>
+        android:textSize="40sp"
+        tools:layout_constraintTop_creator="1"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="33dp"
+        tools:layout_constraintLeft_creator="1"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-</LinearLayout>
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Dish"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="85dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="111dp"
+        android:layout_height="46dp"
+        android:text="Edit Dish"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintRight_toRightOf="@+id/button"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintLeft_toLeftOf="@+id/button"
+        tools:layout_editor_absoluteY="304dp"
+        tools:layout_editor_absoluteX="126dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="110dp"
+        android:layout_height="49dp"
+        android:text="Add Dish"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button3"
+        app:layout_constraintRight_toRightOf="@+id/button3"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintLeft_toLeftOf="@+id/button3"
+        tools:layout_editor_absoluteY="232dp"
+        tools:layout_editor_absoluteX="127dp"
+        app:layout_constraintHorizontal_bias="0.521" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="118dp"
+        android:layout_height="0dp"
+        app:srcCompat="@drawable/cook"
+        tools:layout_constraintTop_creator="1"
+        tools:layout_constraintRight_creator="1"
+        tools:layout_constraintBottom_creator="1"
+        app:layout_constraintBottom_toTopOf="@+id/button2"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_constraintLeft_creator="1"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/textView" />
+
+</android.support.constraint.ConstraintLayout>
