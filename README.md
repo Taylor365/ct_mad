@@ -1,2 +1,2 @@
 # ct_mad
-My Repository for DBS Mobile Development
+This Repository contains work from Android Studio for developing apps as part of my Mobile Development module.
