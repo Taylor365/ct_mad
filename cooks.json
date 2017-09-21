@@ -1,0 +1,34 @@
+{"cooks":
+[
+{"name":"Randy","email":"randy@gmail.com","dish":{
+	"Randy Metballs",
+	"Randy Hotdogs",
+	"Randy Wings"
+}
+},
+{"name":"Reggy","email":"Reggy@gmail.com","dish":{
+	"Seriously Chicken",
+	"Total Conks",
+	"Yams Mon"
+}
+},
+{"name":"Michelle","email":"michelle@gmail.com","dish":{
+	"Michelles snails",
+	"Frogs legs",
+	"French bread"
+}
+},
+{"name":"Sergio","email":"sergio@gmail.com","dish":{
+	"Arreeeba Fajitas",
+	"Burrito Monchito",
+	"Tabasco Hell"
+}
+},
+{"name":"Bruce","email":"bruce@gmail.com","dish":{
+	"Bruces shelia",
+	"Good ol oz kippa",
+	"Kangaroo satay"
+}
+}
+]
+}
