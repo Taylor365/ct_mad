@@ -65,9 +65,10 @@
 
     <ImageView
         android:id="@+id/imageView4"
+        android:visibility="visible"
         android:layout_width="118dp"
         android:layout_height="0dp"
-        app:srcCompat="@drawable/cook"
+        android:src="@drawable/cook"
         tools:layout_constraintTop_creator="1"
         tools:layout_constraintRight_creator="1"
         tools:layout_constraintBottom_creator="1"

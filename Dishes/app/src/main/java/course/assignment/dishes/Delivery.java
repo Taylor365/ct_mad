@@ -21,14 +21,18 @@ public class Delivery extends Activity {
         try {
 
             // Process text for network transmission
-            Intent in = getIntent();
-            String dAddress = in.getExtras().getString("delivery address");
-            dAddress = dAddress.replace(' ', '+');
+            /*Intent in = getIntent();
+            String destination = in.getExtras().getString("delivery address");
+            destination = destination.replace(' ', '+');*/
+
+            Intent out = getIntent();
+            String origin = out.getExtras().getString("cook address");
+            origin = origin.replace(' ', '+');
 
             // Create Intent object for starting Google Maps application
             Intent geoIntent = new Intent(
                     android.content.Intent.ACTION_VIEW, Uri
-                    .parse("geo:0,0?q=" + dAddress));
+                    .parse("geo:0,0?q=" + origin));
 
             // Use the Intent to start Google Maps application using Activity.startActivity()
             startActivity(geoIntent);

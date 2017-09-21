@@ -25,4 +25,10 @@
     <string name="search_dish_string">Search Dish</string>
     <string name="enter_dish_name_hint">Enter dish to search</string>
 
+    <string name="search_cook_string">Search Cook</string>
+    <string name="enter_cook_name_hint">Enter cook to search</string>
+
+    <string name="search_area_string">Search Area</string>
+    <string name="enter_area_hint">Enter area to search</string>
+
 </resources>

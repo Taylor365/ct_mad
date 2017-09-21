@@ -21,9 +21,37 @@ public class Eat extends Activity {
         sDishButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent sDishIntent = new Intent(Eat.this, SearchDish.class); //Use UITabLayout
+                Intent sDishIntent = new Intent(Eat.this, SearchDish.class);
 
                 startActivity(sDishIntent);
+            }
+        });
+
+        final Button sCookButton = (Button) findViewById(R.id.searchCook_button);
+        sCookButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent sCookIntent = new Intent(Eat.this, SearchCook.class);
+
+                startActivity(sCookIntent);
+            }
+        });
+
+        final Button sAreaButton = (Button) findViewById(R.id.searchArea_button);
+        sAreaButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                Intent sAreaIntent = new Intent(Eat.this, SearchArea.class);
+
+                startActivity(sAreaIntent);
+            }
+        });
+
+        final Button legendaryButton = (Button) findViewById(R.id.legendary_button);
+        legendaryButton.setOnClickListener(new View.OnClickListener() {
+
+            public void onClick(View v) {
+                startActivity(new Intent(Eat.this, JSONActivity.class));
             }
         });
     }

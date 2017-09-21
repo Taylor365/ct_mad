@@ -1,7 +1,9 @@
 package course.assignment.dishes;
 
 import android.app.Activity;
+import android.content.ContentValues;
 import android.content.Intent;
+import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -12,9 +14,14 @@ import android.widget.EditText;
  */
 
 public class RegisterScreen extends Activity {
+
+    private DatabaseOpenHelper mDbHelper;
+
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.registerscreen);
+        mDbHelper = new DatabaseOpenHelper(this);
 
         final EditText name = (EditText) findViewById(R.id.name_edittext);
         final EditText email = (EditText) findViewById(R.id.email_edittext);
@@ -27,6 +34,7 @@ public class RegisterScreen extends Activity {
 
             public void onClick(View v) {
 
+                insertIntoDB(email.getText().toString(), passwd.getText().toString(), name.getText().toString(), address.getText().toString(), dish.getText().toString());
                 // Create an explicit Intent for starting the LoginScreen Activity
                 Intent regIntent = new Intent(RegisterScreen.this, LoginScreen.class);
 
@@ -34,5 +42,19 @@ public class RegisterScreen extends Activity {
                 startActivity(regIntent);
             }
         });
+    }
+
+    private void insertIntoDB(String email, String passwd, String name, String address, String dish) {
+
+        ContentValues values = new ContentValues();
+
+        values.put(DatabaseOpenHelper.COOK_NAME, name);
+        values.put(DatabaseOpenHelper.COOK_EMAIL, email);
+        values.put(DatabaseOpenHelper.COOK_ADDRESS, address);
+        values.put(DatabaseOpenHelper.COOK_PASS, passwd);
+        values.put(DatabaseOpenHelper.COOK_DISH, dish);
+        mDbHelper.getWritableDatabase().insert(DatabaseOpenHelper.TABLE_NAME, null, values);
+
+        values.clear();
     }
 }

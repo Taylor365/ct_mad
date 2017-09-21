@@ -14,6 +14,7 @@ public class DatabaseOpenHelper extends SQLiteOpenHelper {
 	final static String COOK_DISH = "dish";
 	final static String _ID = "_id";
 	final static String[] columns = {_ID, COOK_NAME, COOK_DISH, COOK_ADDRESS};
+	final static String[] allCol = {_ID, COOK_NAME, COOK_EMAIL, COOK_DISH, COOK_ADDRESS, COOK_PASS};
 
 	final private static String CREATE_CMD =
 

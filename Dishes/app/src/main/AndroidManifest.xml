@@ -2,6 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="course.assignment.dishes">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <application
         android:allowBackup="true"
         android:icon="@drawable/dishes"
@@ -35,6 +37,14 @@
             android:label="Dishes">
         </activity>
         <activity
+            android:name=".SearchCook"
+            android:label="Dishes">
+        </activity>
+        <activity
+            android:name=".SearchArea"
+            android:label="Dishes">
+        </activity>
+        <activity
             android:name=".RegisterScreen"
             android:label="Dishes">
         </activity>
@@ -44,6 +54,10 @@
         </activity>
         <activity
             android:name=".Delivery"
+            android:label="Dishes">
+        </activity>
+        <activity
+            android:name=".JSONActivity"
             android:label="Dishes">
         </activity>
     </application>
