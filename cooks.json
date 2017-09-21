@@ -1,33 +1,33 @@
 {"cooks":
 [
 {"name":"Randy","email":"randy@gmail.com","dish":{
-	"Randy Metballs",
-	"Randy Hotdogs",
-	"Randy Wings"
+	"dish1": "Randy Metballs",
+	"dish2": "Randy Hotdogs",
+	"dish3": "Randy Wings"
 }
 },
 {"name":"Reggy","email":"Reggy@gmail.com","dish":{
-	"Seriously Chicken",
-	"Total Conks",
-	"Yams Mon"
+	"dish1": "Seriously Chicken",
+	"dish2": "Total Conks",
+	"dish3": "Yams Mon"
 }
 },
 {"name":"Michelle","email":"michelle@gmail.com","dish":{
-	"Michelles snails",
-	"Frogs legs",
-	"French bread"
+	"dish1": "Michelles snails",
+	"dish2": "Frogs legs",
+	"dish3": "French bread"
 }
 },
 {"name":"Sergio","email":"sergio@gmail.com","dish":{
-	"Arreeeba Fajitas",
-	"Burrito Monchito",
-	"Tabasco Hell"
+	"dish1": "Arreeeba Fajitas",
+	"dish2": "Burrito Monchito",
+	"dish3": "Tabasco Hell"
 }
 },
 {"name":"Bruce","email":"bruce@gmail.com","dish":{
-	"Bruces shelia",
-	"Good ol oz kippa",
-	"Kangaroo satay"
+	"dish1": "Bruces shelia",
+	"dish2": "Good ol oz kippa",
+	"dish3": "Kangaroo satay"
 }
 }
 ]
