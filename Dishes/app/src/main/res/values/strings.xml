@@ -31,4 +31,7 @@
     <string name="search_area_string">Search Area</string>
     <string name="enter_area_hint">Enter area to search</string>
 
+    <string name="about">About</string>
+    <string name="title_about">This App allows ordinary folk to beomce rich successful chefs or takeways all from the comfort of their own home!</string>
+
 </resources>

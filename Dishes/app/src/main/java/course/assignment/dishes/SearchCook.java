@@ -1,6 +1,7 @@
 package course.assignment.dishes;
 
 import android.app.ListActivity;
+import android.content.Intent;
 import android.database.Cursor;
 import android.os.Bundle;
 import android.view.View;
@@ -58,10 +59,10 @@ public class SearchCook extends ListActivity {
             {
                 Cursor c = ((Cursor) lv.getItemAtPosition(position));
                 String val = c.getString(c.getColumnIndex(DatabaseOpenHelper.COOK_ADDRESS));
-                //String selection = DatabaseOpenHelper.COOK_ADDRESS + " = ?";
 
-                Toast.makeText(SearchCook.this, c.toString(), Toast.LENGTH_LONG).show();
-
+                Intent i = new Intent(SearchCook.this, Delivery.class);
+                i.putExtra("cook address", val);
+                startActivity(i);
             }
         });
 

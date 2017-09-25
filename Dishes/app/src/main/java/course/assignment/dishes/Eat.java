@@ -21,8 +21,9 @@ public class Eat extends Activity {
         sDishButton.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View v) {
-                Intent sDishIntent = new Intent(Eat.this, SearchDish.class);
 
+
+                Intent sDishIntent = new Intent(Eat.this, SearchDish.class);
                 startActivity(sDishIntent);
             }
         });
@@ -32,7 +33,6 @@ public class Eat extends Activity {
 
             public void onClick(View v) {
                 Intent sCookIntent = new Intent(Eat.this, SearchCook.class);
-
                 startActivity(sCookIntent);
             }
         });
@@ -42,7 +42,6 @@ public class Eat extends Activity {
 
             public void onClick(View v) {
                 Intent sAreaIntent = new Intent(Eat.this, SearchArea.class);
-
                 startActivity(sAreaIntent);
             }
         });

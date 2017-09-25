@@ -59,9 +59,7 @@ public class SearchDish extends ListActivity {
             {
                 Cursor cItem = ((Cursor) lv.getItemAtPosition(position));
                 String val = cItem.getString(cItem.getColumnIndex(DatabaseOpenHelper.COOK_ADDRESS));
-                //String selection = DatabaseOpenHelper.COOK_ADDRESS + " = ?";
 
-                //Toast.makeText(SearchDish.this, val, Toast.LENGTH_LONG).show();
                 Intent i = new Intent(SearchDish.this, Delivery.class);
                 i.putExtra("cook address", val);
                 startActivity(i);
@@ -69,12 +67,6 @@ public class SearchDish extends ListActivity {
             }
         });
 
-    }
-
-    private Cursor readCooks() {
-        return mDbHelper.getWritableDatabase().query(DatabaseOpenHelper.TABLE_NAME,
-                DatabaseOpenHelper.columns, null, new String[] {}, null, null,
-                null);
     }
 
     private Cursor selectDish() {
@@ -85,12 +77,6 @@ public class SearchDish extends ListActivity {
         return mDbHelper.getWritableDatabase().query(DatabaseOpenHelper.TABLE_NAME,
                 DatabaseOpenHelper.columns, selection, conditions, null, null,
                 null);
-    }
-
-    // Modify the contents of the database
-    private void order() {
-
-
     }
 
     // Delete all records
